@@ -85,16 +85,21 @@ fieldset {
 }
 
 
+.input {
+  font-size: 44px;
+}
+
+
 /* !todo */
 
 .hero {
   display: none;
 }
 
-/* .wishlist {
-  display: none;
-} */
-
-.edit {
+.wishlist {
   display: none;
 }
+
+/* .edit {
+  display: none;
+} */
