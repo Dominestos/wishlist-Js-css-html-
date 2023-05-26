@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  align-items: flex-end;
+}
+.profile__avatar {
+  width: 100%;
+  max-width: 437px;
+  border-radius: 50%;
+  margin-right: 107px;
+}
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 78px;
+  align-items: flex-start; /*свойство для выравнивания поля ссылки и поля текста, или контента, т.е. чтобы нельзя было нажать на ссылку рядом с полем контента, отвечающим за ссылку*/
+}
+.profile__fullname {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.profile__birthday {
+  font-size: 38px;
+  margin-bottom: 44px;
+}
+.profile__edit {
+  font-size: 32px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
