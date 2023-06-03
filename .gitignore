@@ -1,2 +1,4 @@
 # Ignore images
 img/
+# Ignore index
+index copy.html

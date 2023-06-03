@@ -50,6 +50,7 @@ fieldset {
   margin: 0;
   padding: 0;
   border: 0;
+  position: relative;
 }
 
 .container {
@@ -89,17 +90,3 @@ fieldset {
   font-size: 44px;
 }
 
-
-/* !todo */
-
-.hero {
-  display: none;
-}
-
-.wishlist {
-  display: none;
-}
-
-/* .edit {
-  display: none;
-} */

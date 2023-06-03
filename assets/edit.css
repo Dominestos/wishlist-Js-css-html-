@@ -94,6 +94,7 @@
   top: 50%;
   transform: translateY(-50%);
   width: 34px;
+  height: 34px;
   background-image: url('../img/arrow-down.svg');
   background-repeat: no-repeat;
   background-position: center;
