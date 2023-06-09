@@ -1,8 +1,10 @@
 import { createElement } from './helper.js';
 const nav = document.querySelector('.nav');
-// const burger = createBurgerMenu(nav);
+export const burger = createBurgerMenu(nav);
 export const renderNavigation = () => {
+
   nav.textContent = '';
+
   // <button class="nav__btn btn">Зарегистрироваться</button>
   // <button class="nav__btn btn">Войти</button>
 

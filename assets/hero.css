@@ -2,13 +2,14 @@
   flex-grow: 1;
   padding: 20px 0;
 }
+
 .hero__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
 .hero__title {
   font-family: 'Aclonica';
   font-weight: 400;
@@ -16,11 +17,71 @@
   text-transform: uppercase;
   margin-bottom: 24px;
 }
+
 .hero__description {
   max-width: 940px;
   text-align: center;
   font-size: 46px;
   margin-bottom: 135px;
 }
+
 .hero__steps {
+
+}
+
+@media (max-width: 1700px) {
+  hero {
+    padding: 32px 0;
+  }
+
+  .hero__title {
+    font-size: 200px;
+    margin-bottom: 12;
+  }
+
+  .hero__description {
+    font-size: 42px;
+    max-width: 860px;
+    margin-bottom: 66px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero__title {
+    font-size: 150px;
+    margin-bottom: 0;
+  }
+
+  .hero__description {
+    font-size: 36px;
+    max-width: 770px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__title {
+    font-size: 118px;
+  }
+
+  .hero__description {
+    font-size: 26px;
+    max-width: 590px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 740px) {
+  .hero__title {
+    font-size: 96px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero__description {
+    font-size: 26px;
+    margin-bottom: 54px;
+  }
 }
