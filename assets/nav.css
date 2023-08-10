@@ -19,6 +19,7 @@
 @media (max-width: 992px) {
   .nav {
     position: absolute;
+    z-index: -1;
     top: 130px;
     left: 0;
     right: 0;

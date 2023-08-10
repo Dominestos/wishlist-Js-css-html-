@@ -45,6 +45,10 @@
     transform: translateY(-100%);
   }
 
+  .burger.burger_active .burger__line {
+    opacity: 0;
+  }
+
   .burger.burger_active:before {
     top:50%;
     transform: rotate(45deg);
